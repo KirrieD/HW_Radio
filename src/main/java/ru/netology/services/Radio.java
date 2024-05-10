@@ -16,6 +16,7 @@ public class Radio {
             CurrectVol = MaxVol;
         }
     }
+
     // Убавление громкости
     public void NextDownVol() {
         if (CurrectVol > MinVol) {
@@ -75,5 +76,4 @@ public class Radio {
         }
         CurrectRF = newCurrectRF;
     }
-
 }
